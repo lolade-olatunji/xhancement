@@ -1,0 +1,290 @@
+.background{
+    position: relative;
+    width: 100%;
+    height: 600PX;
+    padding: 1rem 0rem;
+    background: linear-gradient(to bottom right, rgb(15, 13, 36),  rgb(30, 37, 95));
+}
+.image-wrapper img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 50%;
+    transform: translateX(0%);
+    height: 100%;
+    overflow: hidden;
+}
+.top-over {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(94, 104, 201, 0.15);
+}
+.logo-red{
+    color: red;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    padding: 0rem 3rem;
+}
+.nav h1{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: "Holtwood One Sc";
+    z-index: 2;
+}
+.nav h1 span{
+    font-size: 45px;
+    font-weight: 300;
+    font-family: "Holtwood One Sc";
+}
+.nav p{
+    position: absolute;
+    z-index: 2;
+    right: 3rem;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Goldman";
+}
+.nav p span{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Goldman";
+    color: #FFAA04;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 4rem;
+}
+.mid h1{
+    font-size: 50px;
+    font-weight: 400;
+    width: 40%;
+    font-family: "Goldman";
+    color: white;
+    z-index: 2;
+}
+.mid h1 span{
+    font-weight: 600;
+    font-family: "Goldman";
+    color: #FFAA04;
+}
+.mid p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Gruppo";
+    color: white;
+    width: 30%;
+    margin-top: 0px;
+    z-index: 2;
+}
+.la-but{
+    border:1px solid #FFAA04;
+    padding: 1.5rem 4rem;
+    width: 100%;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: "inria sans";
+    background-color: #FFAA04;
+    color: white;
+    margin-top: 2rem;
+    z-index: 2;
+}
+@media screen and (max-width: 1850px) {
+.mid h1{
+    width: 45%;
+}
+}
+@media screen and (max-width: 1669px) {
+    .main-img{
+    width: 60%;
+}
+.mid h1{
+    width: 50%;
+}
+.mid p{
+    width: 35%;
+}
+button{
+    padding: 1.5rem 3rem;
+}
+}
+@media screen and (max-width: 1538px) {
+.mid h1{
+    width: 60%;
+}
+}
+@media screen and (max-width: 1520px) {
+.mid h1{
+    width: 55%;
+}
+}
+@media screen and (max-width: 1380px) {
+.mid h1{
+    width: 60%;
+}
+}
+@media screen and (max-width: 1309px) {
+    .mid h1{
+    width: 70%;
+}
+.mid p{
+   width: 50%;
+}
+}
+@media screen and (max-width: 1299px) {
+    .mid h1{
+    width: 70%;
+}
+.mid p{
+    width: 45%;
+}
+button{
+    padding: 1.2rem 3rem;
+}
+}
+@media screen and (max-width: 1143px) {
+    .mid h1{
+    width: 80%;
+}
+.mid p{
+    width: 60%;
+} 
+}
+@media screen and (max-width: 1038px){
+    .nav p{
+        display: none;
+    }
+}
+@media screen and (max-width: 1128px) {
+.mid h1{
+    width: 80%;
+}
+.mid p{
+    width: 60%;
+}
+button{
+    padding: 1.2rem 2.5rem;
+}
+.nav p{
+    font-size: 25px;
+    margin-top: 3rem;
+}
+}
+@media screen and (max-width: 1008px) {
+   .mid h1{
+    width: 90%;
+}
+.mid p{
+    width: 70%;
+}
+button{
+    padding: 1rem 2.2rem;
+}
+}
+@media screen and (max-width: 921px) {
+.mid h1{
+    width: 100%;
+}
+}
+@media screen and (max-width: 907px) {
+   .mid h1{
+    width: 100%;
+}
+.mid p{
+    width: 90%;
+}
+button{
+    padding: 1rem 2rem;
+}
+}
+@media screen and (max-width: 843px) {
+.mid h1{
+    font-size: 48px;
+}
+.mid p{
+    width: 80%;
+}
+
+.nav{
+    margin-left: 1rem;
+}
+.nav h1{
+    font-size: 30px;
+}
+.nav h1 span{
+    font-size: 35px;
+}
+}
+@media screen and (max-width: 827px) {
+.mid h1{
+    font-size: 45px;
+}
+.mid p{
+    width: 90%;
+}
+button{
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 20px;
+}
+.nav{
+    margin-left: 1rem;
+}
+.nav h1{
+    font-size: 30px;
+}
+.nav h1 span{
+    font-size: 35px;
+}
+}
+@media screen and (min-width: 100px ) and (max-width: 700px) {
+    .mid{
+        padding: 2rem 1rem;
+    }
+   .mid h1{
+    font-size: 35px;
+}
+.mid p{
+    width: 90%;
+    font-size: 18px;
+}
+.mid{
+    margin-top: 2rem;
+}
+.nav{
+    margin-left: 0rem;
+    padding: 0rem 1rem;
+}
+.nav h1{
+    font-size: 20px;
+}
+.nav h1 span{
+    font-size: 25px;
+}
+.image-wrapper img{
+   width: 100%;
+   left: 0;
+   right: 0;
+}
+button{
+    position: relative;
+    width: 100%;
+    margin-top: 3rem;
+    padding: 0.5rem 2=1rem;
+    font-size: 20px;
+    z-index: 2;
+}
+}

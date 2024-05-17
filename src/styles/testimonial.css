@@ -1,0 +1,91 @@
+.test-body{
+    padding: 0rem 5rem 4rem 5rem;
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+    overflow: hidden;
+}
+.mini-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.line-tes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 1.5px;
+    background-color: #646060;
+    width: 300px;
+    overflow: hidden;
+}
+
+.mini-head h1{
+    font-size: 35px;
+    font-family: "Inter";
+    font-weight: 500;
+    color: #646060;
+}
+.header p{
+    font-size: 25px;
+    font-family: "Inter";
+    font-weight: 300;
+    color: #646060;
+}
+.tests{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem 0rem;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+.test-img-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.test-img-wrap img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.tests h2{
+    text-align: center;
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 700;
+}
+.tests p{
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0rem 8rem;
+    color: #646060;
+}
+@media screen and (max-width: 1320px) {
+   .tests h2{
+    font-size: 24px;
+}
+.tests p{
+    font-size: 15px;
+    padding: 0rem 5rem;
+}
+}

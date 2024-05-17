@@ -1,0 +1,56 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.about-us h2{
+    font-size: 45px;
+    font-family: "Lexend Deca";
+    color: #FFAA04;
+    font-weight: 700;
+}
+.about-us p{
+    text-align: center;
+    font-size: 35px;
+    width: 85%;
+    font-family: "Ledger";
+    color: #646060;
+}
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+.line img{
+    overflow: hidden;
+}
+
+@media screen and (max-width: 930px) {
+    .about-us{
+    padding: 2rem 1rem;
+}
+  .about-us h2{
+    font-size: 40px;
+}
+    .about-us p{
+    font-size: 29px;
+    width: 85%;
+}
+}
+@media screen and (min-width: 300px) and (max-width: 750px) {
+     .about-us h2{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+    .about-us p{
+    font-size: 20px;
+    width: 90%;
+}
+}
